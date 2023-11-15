@@ -1,0 +1,120 @@
+html {
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+body {
+    margin: 0;
+    font-size: 16px;
+    background: #121120;
+    color: white;
+    width: 1440px;
+    height: 5981px;
+}
+
+nav {
+  background: #121120;
+  padding: 12px 14px 13px 14px;
+  border-radius: 8px;
+  border: none;
+  box-sizing: border-box;
+  width: 95%;
+  border: solid #121120;
+}
+
+.social {
+  float: left;
+  width: 33.33%;
+  height: 50px;
+  flex-shrink: 0;
+  justify-content: center;
+  align-items: center;
+  background: #121120;
+  display: inline-flex;
+  padding: 12px 14px 13px 14px;
+  align-items: flex-start;
+  gap: 10px;
+  border-radius: 8px;
+}
+
+.button {
+    padding: 12px 14px 13px 14px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 8px;
+    border: none;
+    display: inline-flex;
+    background-color: #121120;
+    color: #F5F5F5;
+    text-align: center;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    opacity: 0.5;
+}
+
+.button a {
+    color: white;
+    opacity: 0.5;
+}
+
+.emailto {
+    padding: 12px 14px 13px 14px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 8px;
+    border: none;
+    display: inline-flex;
+    background: rgba(130, 130, 138, 0.20); 
+    color: #F5F5F5;
+    text-align: center;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    opacity: 0.5;
+}
+
+.header:after {
+  display: table;
+  clear: both;
+}
+
+@media screen and (max-width: 600px) {
+  .social {
+    width: 100%;
+  }
+}
+
+h1 {
+    color: #F5F5F5;
+    text-align: center;
+    font-family: Inter;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+name {
+    color: white;
+}
+.profilepic {
+    width: 154px;
+    height: 154px;
+    flex-shrink: 0;
+    fill: linear-gradient(180deg, rgba(131, 130, 138, 0.20) 0%, rgba(131, 130, 138, 0.00) 100%);
+    stroke-width: 1.167px;
+    stroke: rgba(255, 255, 255, 0.00);
+    opacity: 0.77;
+    box-sizing: border-box;
+}
