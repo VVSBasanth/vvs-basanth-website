@@ -16,6 +16,7 @@ body {
     color: white;
     width: 1440px;
     height: 5981px;
+    text-align: center;
 }
 
 nav {
@@ -84,7 +85,7 @@ nav {
     opacity: 0.5;
 }
 
-.header:after {
+.nav:after {
   display: table;
   clear: both;
 }
@@ -107,14 +108,16 @@ h1 {
 
 name {
     color: white;
+    align-items: center;
 }
-.profilepic {
-    width: 154px;
-    height: 154px;
-    flex-shrink: 0;
-    fill: linear-gradient(180deg, rgba(131, 130, 138, 0.20) 0%, rgba(131, 130, 138, 0.00) 100%);
-    stroke-width: 1.167px;
-    stroke: rgba(255, 255, 255, 0.00);
-    opacity: 0.77;
-    box-sizing: border-box;
+.profilepic img {
+  border-radius:100%;
+  border:25px solid #2c2c2c;
+}
+
+bg-image {
+  width: 250%;
+  height: 250%;
+  flex-shrink: float;
+  box-sizing: border-box
 }
